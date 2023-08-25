@@ -1,39 +1,50 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'WorkSans-Bold';
+    src: url('fonts/	');
+
+}
+
+@font-face {
+    font-family:'Inter';
+	src: url('fonts/inter/static/Inter-Regular.ttf')
+}
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Inter';
 }
 
 body {
 	display: flex;
 	flex-wrap: wrap;
 	flex: 1 1 100vw;
-	margin: 3px;
 }
 
 /* Formatação comum entre os elementos. */
 header, nav, main, aside, footer {
-	background: #a1a1a1;
+	background: #ffffff;
 	display: flex;
-	margin: 3px;
 }
 
 /* Seletores para formatação individual. */
 header {
-	height: 100px;
+	height: 75px;
 	flex: 1 1 100vw;
-	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
-	margin: 0px;
+	box-shadow: 0px 0px 14px -5px rgba(0, 0, 0, 0.25);
 }
 
 header #logo {
 	display: flex;
-	flex: 0 1 200px;
-	background: #c9c9c9;
+	flex: 0 1 500px;
 	justify-content: center;
 	align-items: center;
+	color: #000;
+	font-family: 'WorkSans-Bold';
+	font-size: 30px;
 }
 
 #openMenu, #closeMenu {
@@ -54,7 +65,7 @@ nav {
 
 nav a {
 	margin: 0 3%;
-	font-size: 15pt;
+	font-size: 16px;
 }
 
 main {
