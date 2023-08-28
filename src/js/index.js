@@ -22,7 +22,7 @@ openMenu.addEventListener('click', () => {
 		menu.style.right = "0"
 
 		/* Oculta o botão que torna visível o elemento nav.*/
-		openMenu.style.display = 'none'
+		openMenu.style.opacity = '0'
 	}, 10);
 })
 
