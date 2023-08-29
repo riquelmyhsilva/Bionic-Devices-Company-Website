@@ -88,12 +88,8 @@ nav a {
 
 main {
 	flex: 20 1 500px;
-	height: 600px;
 }
 
-aside {
-	flex: 1 1 200px;
-}
 
 footer {
 	height: 100px;
@@ -112,9 +108,6 @@ p {
 a {
 	text-decoration: none;
 	color: inherit;
-}
-
-#menu {
 }
 
 #menu a {
@@ -199,7 +192,4 @@ b {
 		height: calc(100vh - 330px);
 	}
 
-	aside {
-		height: 100px;
-	}
 }
