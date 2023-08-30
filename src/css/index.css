@@ -88,6 +88,7 @@ nav a {
 
 main {
 	flex: 20 1 500px;
+	height: 100%;
 }
 
 
@@ -186,10 +187,6 @@ b {
 
 	nav a {
 		margin: 3%;
-	}
-
-	main {
-		height: calc(100vh - 330px);
 	}
 
 }
