@@ -10,11 +10,6 @@
 	font-weight: 400;
 }
 
-* {
-	scrollbar-width: 12px;
-	scroll-color: #000000 #ffffff; 
-}
-
 ::-webkit-scrollbar {
 	width: 12px;
 }
