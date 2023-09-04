@@ -59,6 +59,7 @@ main {
 .container:hover .overlay {
   opacity: 1;
   transform: scale(1.05);
+  cursor: pointer;
 }
 
 .container:hover img {
