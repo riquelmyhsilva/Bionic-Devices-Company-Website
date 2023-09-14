@@ -143,6 +143,10 @@ a {
 	transition: .4s ease;
 }
 
+#menu img {
+	position: absolute;
+}
+
 b {
     font-weight: 700;
 }
